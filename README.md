@@ -33,7 +33,7 @@ Usage:
 	Gilbert, John E<br />
 	Patt, Yale N<br />
 
-	Please make sure to fill the department or professor out exactly as it appears in the drop down 	menu of the site, and to include an enter(new line) after each class/professor.
+	Please make sure to fill the department or professor out exactly as it appears in the drop down 	menu of the site, and to include an enter(new line) after each class/professor <b>(except the last entry)</b>.
 	
 	Ex:<br />
 	A B-123<br />
