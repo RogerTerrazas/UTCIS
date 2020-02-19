@@ -44,10 +44,13 @@ Usage:
 2. After filling out said text file, save it and run the UTCIS.jar
 3. Hit "Browse" and browse to your text file location to load the classes.
 4. After selecting your file, please title your file. As a default, it should save within your current working directory, but if you wish to have it stored at a different location, hit "Save As" and browse to said location.
+
 	***Please Note: Please title the file "<name>.xlsx" . Current versions of the UTCIS software do not append the file type at the end of the name and thus will save it as a "file" instead of an Excel document if this ending is not added.***
+
 	***If you forget to do this, you can simply rename the file "<name>.xlsx" after it is exported. You do NOT have to run the program over the same file again.***
 5. Enter your login information (as a note, this is never saved and is wiped as soon as submit is hit making sure it is never logged and is secure).
 6. Once you are ready, hit submit. If no errors pop up, it should be running. Once the "Start" button pops back up, your file should have been exported to the selected location and be good to go.
+	
 	***Please note: The program may appear to be frozen after clicking start when using chromedriver. It is not. It is set to run in "headless" mode which hides the browser from sight.***
 
 For any questions and concerns, please contact: roger.terrazas@utexas.edu
