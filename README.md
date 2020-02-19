@@ -1,7 +1,7 @@
 # UTCIS
-# Created by The University of Texas, College of Liberal Arts Informational Technology Services
-# This tool is used to collect course information from the UT Course Instructor Survey website. (https://utdirect.utexas.edu/ctl/ecis/results/search.WBX)
-# It is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.
+<h3>Created by The University of Texas, College of Liberal Arts Informational Technology Services</h3>
+<h3>This tool is used to collect course information from the UT Course Instructor Survey website. (https://utdirect.utexas.edu/ctl/ecis/results/search.WBX)</h3> 
+<h3>The tool is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.</h3>
 
 Installation:
 1. To install UTCIS, simply drag and drop the UTCIS.jar file to the desired run location. 
