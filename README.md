@@ -18,26 +18,26 @@ Setup:
 4. Hit select.
 
 Usage:
-1. To use, please format a text file as such:
-	<courses> or <professor> // depending on which feild you want to use
-	<dept>-<class num>
+1. To use, please format a text file as such:<br />
+	<courses> or <professor> // depending on which feild you want to use<br />
+	<dept>-<class num><br />
 	
-	ex:
-	courses
-	C S-331
-	C S-429
+	ex:<br />
+	courses<br />
+	C S-331<br />
+	C S-429<br />
 	
-	ex:
-	professor
-	Gilbert, John E
-	Patt, Yale N
+	ex:<br />
+	professor<br />
+	Gilbert, John E<br />
+	Patt, Yale N<br />
 
 Please make sure to fill the department or professor out exactly as it appears in the drop down menu of the site, and to include an enter(new line) after each class/professor.
 	
-	Ex:
-	A B-123
-	AB -123 
-	(notice the inclusion of the spaces)
+	Ex:<br />
+	A B-123<br />
+	AB -123 <br />
+	(notice the inclusion of the spaces)<br />
 	
 	***Please Note: The current version of UTCIS has a specific bug where looking for classes like C S-331, will result in getting classes C S-331K as well. This should be worked out in later editions, but is how it is currently.***
 
