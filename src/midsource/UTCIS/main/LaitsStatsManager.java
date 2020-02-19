@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package midsource.laitsstats.main;
+package midsource.UTCIS.main;
 
 import java.awt.Component;
 import java.awt.GridLayout;
@@ -34,8 +34,8 @@ import javax.swing.JPasswordField;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import midsource.laitsstats.classholder.ClassHolder;
-import midsource.laitsstats.question.Question;
+import midsource.UTCIS.classholder.ClassHolder;
+import midsource.UTCIS.question.Question;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;

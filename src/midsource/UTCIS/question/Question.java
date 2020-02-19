@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package midsource.laitsstats.question;
+package midsource.UTCIS.question;
 
 import java.util.List;
 import org.openqa.selenium.WebElement;

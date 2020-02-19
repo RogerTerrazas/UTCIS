@@ -3,11 +3,11 @@
 // (powered by Fernflower decompiler)
 //
 
-package midsource.laitsstats.classholder;
+package midsource.UTCIS.classholder;
 
 import java.util.ArrayList;
 import java.util.List;
-import midsource.laitsstats.question.Question;
+import midsource.UTCIS.question.Question;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
