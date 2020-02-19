@@ -32,14 +32,14 @@ Usage:
 	Gilbert, John E<br />
 	Patt, Yale N<br />
 
-Please make sure to fill the department or professor out exactly as it appears in the drop down menu of the site, and to include an enter(new line) after each class/professor.
+	Please make sure to fill the department or professor out exactly as it appears in the drop down 	menu of the site, and to include an enter(new line) after each class/professor.
 	
 	Ex:<br />
 	A B-123<br />
 	AB -123 <br />
 	(notice the inclusion of the spaces)<br />
 	
-	***Please Note: The current version of UTCIS has a specific bug where looking for classes like C S-331, will result in getting classes C S-331K as well. This should be worked out in later editions, but is how it is currently.***
+	<br />***Please Note: The current version of UTCIS has a specific bug where looking for classes like C S-331, will result in getting classes C S-331K as well. This should be worked out in later editions, but is how it is currently.***
 
 2. After filling out said text file, save it and run the UTCIS.jar
 3. Hit "Browse" and browse to your text file location to load the classes.
