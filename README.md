@@ -18,9 +18,10 @@ Setup:
 4. Hit select.
 
 Usage:
-1. To use, please format a text file as such:<br />
-	<courses> or <professor> // depending on which feild you want to use<br />
-	<dept>-<class num><br />
+1. To use, please format a text file as such:<br /><br />
+	[courses] or [professor] (depending on which feild you want to use)
+	
+	[dept]-[class num]<br />
 	
 	ex:<br />
 	courses<br />
