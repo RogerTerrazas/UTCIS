@@ -38,22 +38,18 @@ public class ClassHolder {
             String[] tmp = ((WebElement)elements.get(3)).getText().split(" ");
             this.semester = tmp[0];
             this.year = tmp[1];
-            String var4;
-            switch((var4 = this.semester).hashCode()) {
-                case -1811812819:
-                    if (var4.equals("Spring")) {
-                        this.semyear = this.year + "2";
-                        break label19;
-                    }
-                    break;
-                case 2182043:
-                    if (var4.equals("Fall")) {
-                        this.semyear = this.year + "9";
-                        break label19;
-                    }
-            }
+            String CCYYS;
+            CCYYS = this.semester;
 
-            this.semyear = "Invalid";
+            if (CCYYS.equals("Spring")) {
+                this.semyear = this.year + "2";
+            } else if (CCYYS.equals("Fall")) {
+                this.semyear = this.year + "9";
+            } else if (CCYYS.equals("Summer")){
+                this.semyear = this.year + "6";
+            } else {
+                this.semyear = "Invalid";
+            }
         }
 
         this.questions = new ArrayList();

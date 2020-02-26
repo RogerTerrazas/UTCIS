@@ -246,7 +246,8 @@ public class LaitsStatsManager {
 
                 searchByCourse(classes, question, s);
             }else {
-                String s = line.toLowerCase();
+                String s = line;
+                System.out.println(s);
                 searchByProfessor(classes, question, s);
             }
 
@@ -458,7 +459,7 @@ public class LaitsStatsManager {
                 WebElement row = (WebElement) var13.next();
                 List<WebElement> data = row.findElements(By.tagName("td"));
                 if (data != null && data.size() != 0) {
-                    if (((WebElement) data.get(0)).getText().toLowerCase().contains(s)) {
+                    if (((WebElement) data.get(0)).getText().toLowerCase().contains(s.toLowerCase())) {
                         String[] courseValue = {"" , ""};
                         String rawCourseName = data.get(1).getText();
                         if(rawCourseName.charAt(1) == ' ' && Character.isDigit(rawCourseName.charAt(2))){ // if course name is only represented by one character
