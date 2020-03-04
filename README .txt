@@ -1,7 +1,7 @@
 # UTCIS
-<h3>Created by The University of Texas, College of Liberal Arts Informational Technology Services</h3>
-<h3>This tool is used to collect course information from the UT Course Instructor Survey website. (https://utdirect.utexas.edu/ctl/ecis/results/search.WBX)</h3> 
-<h3>The tool is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.</h3>
+Created by The University of Texas, College of Liberal Arts Informational Technology Services
+This tool is used to collect course information from the UT Course Instructor Survey website. (https://utdirect.utexas.edu/ctl/ecis/results/search.WBX)
+The tool is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.
 
 Installation:
 1. To install UTCIS, simply drag and drop the UTCIS.jar file to the desired run location. 
@@ -18,29 +18,31 @@ Setup:
 4. Hit select.
 
 Usage:
-1. To use, please format a text file as such:<br /><br />
+1. To use, please format a text file as such:
 	[courses] or [professor] (depending on which feild you want to use)
 	
-	[dept]-[class num]<br />
+	[dept]-[class num]
 	
-	ex:<br />
-	courses<br />
-	C S-331<br />
-	C S-429<br />
+	ex:
+	courses
+	C S-331
+	C S-429
 	
-	ex:<br />
-	professor<br />
-	Gilbert, John E<br />
-	Patt, Yale N<br />
+	ex:
+	professor
+	Gilbert, John E
+	Patt, Yale N
 
-	Please make sure to fill the department or professor out exactly as it appears in the drop down 	menu of the site, and to include an enter(new line) after each class/professor <b>(except the last entry)</b>.
+	Please make sure to fill the department or professor out exactly as it appears in the drop down menu of the site, and to include an enter(new line) after each class/professor (except the last
+	entry).
 	
-	Ex:<br />
-	A B-123<br />
-	AB -123 <br />
-	(notice the inclusion of the spaces)<br />
+	Ex:
+	A B-123
+	AB -123 
+	(notice the inclusion of the spaces)
 	
-	<br />***Please Note: The current version of UTCIS has a specific bug where looking for classes like C S-331, will result in getting classes C S-331K as well. This should be worked out in later editions, but is how it is currently.***
+	***Please Note: The current version of UTCIS has a specific bug where looking for classes like C S-331, will result in getting classes C S-331K as well. This should be worked out in later
+	editions, but is how it is currently.***
 
 2. After filling out said text file, save it and run the UTCIS.jar
 3. Hit "Browse" and browse to your text file location to load the classes.

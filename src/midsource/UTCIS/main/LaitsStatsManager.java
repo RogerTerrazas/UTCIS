@@ -17,6 +17,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.lang.reflect.Array;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
@@ -243,15 +244,13 @@ public class LaitsStatsManager {
                while(s[0].length() < 3){ // for one char courses like "M", the drop down selection value is "M  "
                     s[0] += " ";
                 }
-
+                System.out.println(Arrays.toString(s));
                 searchByCourse(classes, question, s);
             }else {
                 String s = line;
                 System.out.println(s);
                 searchByProfessor(classes, question, s);
             }
-
-
         }
 
         Iterator classIterator = classes.iterator();
