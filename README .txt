@@ -3,7 +3,7 @@ Created by The University of Texas, College of Liberal Arts Informational Techno
 This tool is used to collect course information from the UT Course Instructor Survey website. (https://utdirect.utexas.edu/ctl/ecis/results/search.WBX)
 The tool is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.
 
-Installation:
+Installation: (Java 8 Runtime Environment or greater required)
 1. To install UTCIS, simply drag and drop the UTCIS.jar file to the desired run location. 
 2. Then, download chromedriver.exe or geckodriver.exe (chromedriver preferred as some functions cannot be done on gecko) from one of the following locations:
 	http://chromedriver.chromium.org/
