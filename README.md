@@ -5,11 +5,11 @@
 
 Installation: (Java 8 Runtime Environment or greater required)
 1. To install UTCIS, simply drag and drop the UTCIS.jar file to the desired run location. 
-2. Then, download chromedriver.exe or geckodriver.exe (chromedriver preferred as some functions cannot be done on gecko) from one of the following locations:
+2. Then, download chromedriver.exe from the following locations (stable release):
 	http://chromedriver.chromium.org/
-	https://github.com/mozilla/geckodriver/releases
 
 3. Unzip the file if need be and place the driver in a known place on your computer.
+4. Make sure your current version of Google Chrome is updated to the latest version.
 
 Setup:
 1. Run the UTCIS.jar file. ($java -jar UTCIS.jar)
