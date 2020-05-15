@@ -3,10 +3,10 @@
 <h3>This tool is used to collect course information from the UT Course Instructor Survey website. (https://utdirect.utexas.edu/ctl/ecis/results/search.WBX)</h3> 
 <h3>The tool is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.</h3>
 
-Installation: (Java 8 Runtime Environment or greater required)
-(If you do not have the .jar file yet, make sure to compile the java packages in the src folder into a jar executable)
+Installation: (Java 8 Runtime Environment or greater required from:https://java.com/en/download/)
+(If you do not have the .jar file yet, make sure to compile the java packages in the src folder into a jar executable. Also make sure to have the Java 8 SDK installed on your device from: https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
 1. To install UTCIS, simply drag and drop the UTCIS.jar file to the desired run location. 
-2. Then, download chromedriver.exe from the following locations (stable release):
+2. Then, download chromedriver.exe from the following locations (stable release specific to your operating system):
 	http://chromedriver.chromium.org/
 
 3. Unzip the file if need be and place the driver in a known place on your computer.
