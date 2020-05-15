@@ -9,7 +9,7 @@ Installation: (Java 8 Runtime Environment or greater required from:https://java.
 2. Then, download chromedriver.exe from the following locations (stable release specific to your operating system):
 	http://chromedriver.chromium.org/
 
-3. Unzip the file if need be and place the driver in a known place on your computer.
+3. Unzip the file if need be and place the driver in a known place on your computer. The current chromedriver from this github repo is for linux operating systems. Be sure to replace it if you are on a different operating system.
 4. Make sure your current version of Google Chrome is updated to the latest version.
 
 Setup:
