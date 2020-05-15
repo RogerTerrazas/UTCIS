@@ -4,6 +4,7 @@
 <h3>The tool is able to search for classes by professor or by the course name. The output will be an excel sheet with all the data collected.</h3>
 
 Installation: (Java 8 Runtime Environment or greater required)
+(If you do not have the .jar file yet, make sure to compile the java packages in the src folder into a jar executable)
 1. To install UTCIS, simply drag and drop the UTCIS.jar file to the desired run location. 
 2. Then, download chromedriver.exe from the following locations (stable release):
 	http://chromedriver.chromium.org/
